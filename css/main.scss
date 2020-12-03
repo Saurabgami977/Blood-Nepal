@@ -1,0 +1,42 @@
+@import "_variables.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif",
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  height: 120vh;
+  background-color: $plain-color;
+
+  #container {
+    height: 90vh;
+    width: 100%;
+    background: url(../images/bg.jpg) center center/cover no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 56%, 0% 100%);
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+  }
+  .myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    right: 25vw;
+    position: absolute;
+    
+    form{
+      width: 100%;
+    }
+  }
+}

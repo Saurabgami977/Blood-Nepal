@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif",
+ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  height: 120vh;
+  background-color: #e4e1e1;
+}
+
+body #container {
+  height: 90vh;
+  width: 100%;
+  background: url(../images/bg.jpg) center center/cover no-repeat;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 56%, 0% 100%);
+}
+
+body footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+
+body .myForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  right: 25vw;
+  position: absolute;
+}
+
+body .myForm form {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
